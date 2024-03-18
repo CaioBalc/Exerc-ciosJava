@@ -15,6 +15,8 @@ public class Automovel {
     int quantMarchas;
     int marchaAtual = 0;
     Motor motor;
+    double quantCombustivel = 50;
+    boolean freio;
 
     public void andar(){
         if (marchaAtual == 0) {
@@ -28,6 +30,11 @@ public class Automovel {
                 System.out.println("Pra frente com marcha " + marchaAtual);
             }
         }
+    }
+
+    public void frear(){
+        if (freio == true)
+            System.out.println("Freiando");
     }
 
     public void trocarMarchasPraCima(){
@@ -51,5 +58,12 @@ public class Automovel {
     public void especificacao(){
         motor.peso = 1000;
         motor.tamanhoMetroCubico = 1;
+    }
+
+    public void quantCombustivel(){
+        if (quantCombustivel >= 50)
+            System.out.println("Tanque cheio");
+        if (quantCombustivel <= 0)
+            System.out.println("Tanque vazio");
     }
 }
