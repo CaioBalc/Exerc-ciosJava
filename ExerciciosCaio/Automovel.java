@@ -1,4 +1,5 @@
-/*Um automóvel é um veículo movido a um motor, é utilizado para locomoção de passageiros, podendo
+/*
+Um automóvel é um veículo movido a um motor, é utilizado para locomoção de passageiros, podendo
 transportar objetos. Ele é composto por várias partes principais: o motor, a transmissão, o chassi, a
 carroceria e os sistemas elétricos e de freios. O motor é o coração do automóvel, convertendo energia
 em movimento. A transmissão controla a potência do motor para as rodas. O chassi é a estrutura que
