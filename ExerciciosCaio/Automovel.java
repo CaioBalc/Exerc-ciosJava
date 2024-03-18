@@ -50,6 +50,6 @@ public class Automovel {
 
     public void especificacao(){
         motor.peso = 1000;
-        motor.tamanho = 1;
+        motor.tamanhoMetroCubico = 1;
     }
 }
