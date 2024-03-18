@@ -1,6 +1,6 @@
 package ExerciciosCaio;
 
-public class ExerciciosAula2 {
+public class Exercicios1Aula2 {
     
     public static void main(String[] args) {
         Automovel a1 = new Automovel();
@@ -12,6 +12,12 @@ public class ExerciciosAula2 {
         a1.trocarMarchasPraCima();
         a1.andar();
         a1.trocarMarchasPraCima();
+        a1.andar();
+        a1.trocarMarchasPraBaixo();
+        a1.frear();
+        a1.andar();
+        a1.trocarMarchasPraBaixo();
+        a1.frear();
         a1.andar();
     }
 }

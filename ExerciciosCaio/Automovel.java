@@ -34,8 +34,10 @@ public class Automovel {
     }
 
     public void frear(){
+        freio = true;
         if (freio == true)
             System.out.println("Freando");
+            freio = false;
     }
 
     public void trocarMarchasPraCima(){
